@@ -1,0 +1,135 @@
+body {
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+a {
+  color: black;
+}
+
+header {
+  margin-top: 2.5vh;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav img {
+  width: 6vw;
+  margin: 0 1.25vw;
+}
+
+header nav h1 {
+  margin-right: 1.25vw;
+  font-size: 5vw;
+}
+
+nav p {
+  font-size: 4vw;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5vw 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: 9vw;
+}
+
+span {
+  font-size: 3.25vw;
+}
+
+.projectTitle {
+  font-size: 7vw;
+}
+
+.intro p {
+  font-size: 10vw;
+}
+
+.description {
+  padding: 2.5vw;
+  font-size: 5vw;
+}
+
+.code {
+  font-family: "Fira Code", monospace;
+  font-size: 5.25vw;
+}
+
+.site {
+  font-family: "Lobster", cursive;
+  font-size: 5.25vw;
+}
+
+.pastProj {
+  margin-bottom: 15%;
+}
+
+.pastProj div {
+  margin: 5vw 0;
+}
+
+footer p {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2.5vw 0;
+  font-size: 9px;
+}
+
+@media only screen and (orientation: landscape) {
+  .projectTitle {
+    font-size: 5vw;
+  }
+
+  .intro p {
+    font-size: 5.5vw;
+  }
+
+  #current {
+    margin-bottom: 30%;
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 800px) {
+  .sectionTitle {
+    font-size: 4.75vw;
+  }
+
+  span {
+    font-size: 2vw;
+  }
+
+  .description {
+    font-size: 2vw;
+  }
+
+  .code,
+  .site {
+    font-size: 3.5vw;
+  }
+
+  header nav img {
+    width: 3vw;
+  }
+
+  header nav h1 {
+    font-size: 3vw;
+  }
+
+  nav p {
+    font-size: 2.5vw;
+  }
+}
