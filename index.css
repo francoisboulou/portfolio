@@ -50,12 +50,16 @@ span {
   font-size: 3.25vw;
 }
 
-.projectTitle {
-  font-size: 7vw;
-}
-
 .intro p {
   font-size: 8vw;
+}
+
+.proj {
+  margin: 5vw 0;
+}
+
+.projectTitle {
+  font-size: 7vw;
 }
 
 .description {
@@ -63,8 +67,13 @@ span {
   font-size: 5vw;
 }
 
+.stack-container {
+  margin: 2% 0;
+  width: 100%;
+}
 .stack-icon {
-  width: 3.5vw;
+  width: 5vw;
+  margin: 0 1.5%;
 }
 
 .code {
@@ -81,23 +90,6 @@ span {
   color: black;
 }
 
-.pastProj {
-  /* margin-bottom: 15%; */
-}
-
-.proj {
-  margin: 5vw 0;
-}
-
-.stack-container {
-  margin: 2% 0;
-  width: 100%;
-}
-
-.stack-icon {
-  margin: 0 1.5%;
-}
-
 .footer p {
   margin: 0 auto;
   text-align: center;
@@ -109,6 +101,12 @@ span {
   font-size: 2px;
   text-align: center;
   margin-bottom: 1.5%;
+}
+
+@media only screen and (orientation: portrait) {
+  .stack-icon {
+    width: 8vw;
+  }
 }
 
 @media only screen and (orientation: landscape) {
