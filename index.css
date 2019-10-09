@@ -32,15 +32,14 @@ nav p {
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 5vw 0;
+  margin: 5vw auto;
   width: 90%;
-  margin: 0 auto;
 }
 
 .sectionTitle {
@@ -83,7 +82,7 @@ span {
 }
 
 .pastProj {
-  margin-bottom: 15%;
+  /* margin-bottom: 15%; */
 }
 
 .proj {
@@ -120,10 +119,6 @@ span {
   .intro p {
     font-size: 5.5vw;
   }
-
-  #current {
-    margin-bottom: 30%;
-  }
 }
 
 @media only screen and (orientation: landscape) and (min-width: 800px) {
@@ -155,8 +150,4 @@ span {
   nav p {
     font-size: 2.5vw;
   }
-}
-
-a {
-  text-decoration: none !important;
 }
