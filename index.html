@@ -14,7 +14,6 @@
       href="https://fonts.googleapis.com/css?family=Fira+Code|Lobster&display=swap"
       rel="stylesheet"
     />
-
     <title>Francois Boulou - Portfolio</title>
   </head>
   <body>
@@ -22,17 +21,19 @@
       <nav>
         <h1>Francois Boulou</h1>
         <a href="https://github.com/francoisboulou" target="_blank"
-          ><img src="imgs/icons/nav/github-brands.svg" alt=""
+          ><img src="imgs/icons/nav/github-brands.svg" alt="github account"
         /></a>
         <a
           onClick="javascript:window.open('mailto:giscardboulou@gmail.com', 'mail');event.preventDefault()"
           href="mailto:giscardboulou@gmail.com"
-          ><img src="imgs/icons/nav/envelope-solid.svg" alt=""
+          ><img src="imgs/icons/nav/envelope-solid.svg" alt="email"
         /></a>
         <a href="tel:+1-801-688-6241"
-          ><img src="imgs/icons/nav/phone-solid.svg" alt=""
+          ><img src="imgs/icons/nav/phone-solid.svg" alt="phone"
         /></a>
-        <a href="docs/resume.pdf" target="_blank"><p>Resume</p></a>
+        <a href="docs/resume.pdf" target="_blank"
+          ><img src="imgs/icons/nav/resume-document.svg" alt="resume"
+        /></a>
       </nav>
     </header>
     <section class="intro">
@@ -53,17 +54,51 @@
         neighborhoods, creating an evolving history of places, curated by all of
         us.
       </p>
+      <div class="stack-container">
+        <img
+          class="stack-icon"
+          src="imgs/icons/stack/react-brands.svg"
+          alt="jquery"
+        />
+        <img
+          class="stack-icon"
+          src="imgs/icons/stack/sass-brands.svg"
+          alt="sass"
+        />
+        <img
+          class="stack-icon"
+          src="imgs/icons/stack/bootstrap-brands.svg"
+          alt="bootstrap"
+        />
+      </div>
       <a href=""><p class="code">Code</p></a>
       <a href=""><p class="site">Site</p></a>
     </section>
     <section class="pastProj">
       <h2 class="sectionTitle">Past Projects</h2>
-      <div>
+      <div class="proj">
         <h3 class="projectTitle">Bagels</h3>
         <p class="description">
           A simple guessing game bootstrapped with create-react-app. Currently
           not formatted for smaller screens.
         </p>
+        <div class="stack-container">
+          <img
+            class="stack-icon"
+            src="imgs/icons/stack/react-brands.svg"
+            alt="jquery"
+          />
+          <img
+            class="stack-icon"
+            src="imgs/icons/stack/less-brands.svg"
+            alt="sass"
+          />
+          <img
+            class="stack-icon"
+            src="imgs/icons/stack/npm-brands.svg"
+            alt="bootstrap"
+          />
+        </div>
         <a href="https://github.com/francoisboulou/bagels" target="_blank"
           ><p class="code">Code</p></a
         >
@@ -71,25 +106,52 @@
           ><p class="site">Site</p></a
         >
       </div>
-      <div class="pastProj">
+      <div class="proj">
         <h3 class="projectTitle">Jewels</h3>
         <p class="description">
           A static landing page for a fictional jewelry store.
         </p>
+        <div class="stack-container">
+          <img
+            class="stack-icon"
+            src="imgs/icons/stack/jquery.svg"
+            alt="jquery"
+          />
+          <img
+            class="stack-icon"
+            src="imgs/icons/stack/sass-brands.svg"
+            alt="sass"
+          />
+          <img
+            class="stack-icon"
+            src="imgs/icons/stack/bootstrap-brands.svg"
+            alt="bootstrap"
+          />
+        </div>
         <a
           href="https://github.com/francoisboulou/Jewels-Jewels"
           target="_blank"
           ><p class="code">Code</p></a
         >
         <a
-          href="https://francoisboulou.github.io/Jewels-Jewels/"
+          href="https://francoisboulou.github.io/rubys-vintage/"
           target="_blank"
           ><p class="site">Site</p></a
         >
       </div>
     </section>
-    <footer>
+    <footer class="footer">
       <p>Copyright #me from now until 3514CE</p>
+      <div class="attribution">
+        Icons made by
+        <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
+          >Freepik</a
+        >
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
+      </div>
     </footer>
   </body>
 </html>
